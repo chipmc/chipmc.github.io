@@ -1,1 +1,126 @@
-{"schemaVersion":1,"id":"open-session-v1","revision":1,"title":"Your gym session","label":"OPEN WORKOUT","unit":"kg","coachNote":"Your earlier workout prescription and baselines were not available in the recovered conversation. Add the exercises you plan to do from your gym library, or load a new workout from Coach Chatty. No previous results have been invented.","exercises":[]}
+{
+  "schemaVersion": 1,
+  "id": "2026-09-14-full-body-return",
+  "revision": 1,
+  "date": "2026-09-14",
+  "timeZone": "Asia/Singapore",
+  "durationMinutes": 45,
+  "title": "Full body · 14 September",
+  "label": "45-MINUTE RETURN SESSION",
+  "unit": "kg",
+  "coachNote": "45 minutes in the gym, excluding the 10-minute walk each way. The outbound walk is your general warmup; do light practice sets before loaded exercises. Use comfortable loads with about 3–4 reps in reserve. Rest 60–90 seconds. Skip any movement that causes discomfort. Jogging is separate. No previous loads were available, so choose today's loads rather than treating blanks as zero.",
+  "exercises": [
+    {
+      "id": "leg-press",
+      "name": "45° leg press",
+      "equipment": "Matrix plate-loaded leg press",
+      "target": "2 sets × 10 reps · comfortable load · 3–4 reps in reserve",
+      "note": "Light practice set first. Record plates added and note whether your load includes the sled.",
+      "restSeconds": 90,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "db-bench",
+      "name": "Dumbbell bench press",
+      "equipment": "Dumbbells + adjustable bench",
+      "target": "2 sets × 10 reps · 3–4 reps in reserve",
+      "note": "Light practice set first. Record weight per dumbbell.",
+      "restSeconds": 90,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "cable-row",
+      "name": "Cable row",
+      "equipment": "Cable station",
+      "target": "2 sets × 10 reps · 3–4 reps in reserve",
+      "note": "Light practice set first. Record the machine's displayed load.",
+      "restSeconds": 90,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "db-rdl",
+      "name": "Dumbbell Romanian deadlift",
+      "equipment": "Dumbbells",
+      "target": "2 sets × 10 reps · 3–4 reps in reserve",
+      "note": "Light practice set first. Record weight per dumbbell.",
+      "restSeconds": 90,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "pallof",
+      "name": "Pallof press",
+      "equipment": "Cable station",
+      "target": "2 sets × 10 reps EACH SIDE",
+      "note": "Each set means 10 on the left AND 10 on the right. Enter reps per side (10), not the combined total. Note any difference between sides.",
+      "restSeconds": 60,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "sled-push",
+      "name": "Sled push",
+      "equipment": "Sled + turf lane",
+      "target": "3 easy pushes · about 20 seconds per push",
+      "note": "Each set row is ONE push lasting about 20 seconds. REPS = 1 means one push; it does not mean seconds. Record added load after choosing a comfortable amount, and actual duration in notes. Keep it easy.",
+      "restSeconds": 90,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 1
+        },
+        {
+          "weight": null,
+          "reps": 1
+        },
+        {
+          "weight": null,
+          "reps": 1
+        }
+      ]
+    }
+  ]
+}
