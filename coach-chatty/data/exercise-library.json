@@ -1,1 +1,189 @@
-[{"id":"db-bench","name":"Dumbbell bench press","equipment":"Dumbbells + adjustable bench","group":"Chest","note":"Record weight per dumbbell."},{"id":"incline-db","name":"Incline dumbbell press","equipment":"Dumbbells + adjustable bench","group":"Chest","note":"Record weight per dumbbell."},{"id":"cable-row","name":"Cable row","equipment":"Cable station","group":"Back","note":"Record the machine's displayed load."},{"id":"db-row","name":"Dumbbell row","equipment":"Dumbbell + bench","group":"Back","note":"Record weight and reps per side."},{"id":"pullup","name":"Pull-up","equipment":"Rack pull-up bar","group":"Back","note":"Use 0 for bodyweight only. Note any assistance or added load."},{"id":"pulldown","name":"Lat pulldown","equipment":"High cable station","group":"Back","note":"Check that the station has the appropriate bar and setup."},{"id":"leg-press","name":"45° leg press","equipment":"Matrix plate-loaded leg press","group":"Legs","note":"Record plates added; note if your load includes the sled."},{"id":"goblet","name":"Goblet squat","equipment":"Dumbbell or kettlebell","group":"Legs","note":"Record the single weight held."},{"id":"rdl","name":"Romanian deadlift","equipment":"Barbell or dumbbells","group":"Legs","note":"Specify barbell total or weight per dumbbell in notes."},{"id":"split-squat","name":"Split squat","equipment":"Dumbbells + bench (optional)","group":"Legs","note":"Record reps per side; weight per dumbbell."},{"id":"shoulder-press","name":"Dumbbell shoulder press","equipment":"Dumbbells + adjustable bench","group":"Shoulders","note":"Record weight per dumbbell."},{"id":"lateral","name":"Lateral raise","equipment":"Dumbbells","group":"Shoulders","note":"Record weight per dumbbell."},{"id":"face-pull","name":"Face pull","equipment":"Cable station + rope","group":"Shoulders","note":"Record displayed cable load."},{"id":"curl","name":"Dumbbell curl","equipment":"Dumbbells","group":"Arms","note":"Record weight per dumbbell."},{"id":"triceps","name":"Triceps pushdown","equipment":"Cable station","group":"Arms","note":"Record attachment in notes if changed."},{"id":"pallof","name":"Pallof press","equipment":"Cable station","group":"Core","note":"Record reps per side."},{"id":"carry","name":"Farmer carry","equipment":"Dumbbells or kettlebells + turf","group":"Conditioning","note":"Use notes for distance/time; record weight per hand."},{"id":"sled","name":"Sled push / drag","equipment":"Sled + turf lane","group":"Conditioning","note":"Use notes for distance, time, direction and plates added."},{"id":"trx-row","name":"Suspension row","equipment":"TRX / suspension straps","group":"Back","note":"Use 0 for bodyweight; note stance."}]
+[
+  {
+    "id": "db-bench",
+    "name": "Dumbbell bench press",
+    "equipment": "Dumbbells + adjustable bench",
+    "group": "Chest",
+    "note": "Record weight per dumbbell.",
+    "demo": {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/",
+      "provider": "ACE",
+      "variant": "Flat bench \u00b7 two dumbbells",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "incline-db",
+    "name": "Incline dumbbell press",
+    "equipment": "Dumbbells + adjustable bench",
+    "group": "Chest",
+    "note": "Record weight per dumbbell."
+  },
+  {
+    "id": "cable-row",
+    "name": "Cable row",
+    "equipment": "Cable station",
+    "group": "Back",
+    "note": "Record the machine's displayed load.",
+    "demo": {
+      "url": "https://www.muscleandstrength.com/exercises/seated-row.html",
+      "provider": "Muscle & Strength",
+      "variant": "Seated low-cable row",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "db-row",
+    "name": "Dumbbell row",
+    "equipment": "Dumbbell + bench",
+    "group": "Back",
+    "note": "Record weight and reps per side."
+  },
+  {
+    "id": "pullup",
+    "name": "Pull-up",
+    "equipment": "Rack pull-up bar",
+    "group": "Back",
+    "note": "Use 0 for bodyweight only. Note any assistance or added load.",
+    "demo": {
+      "url": "https://www.nasm.org/resource-center/exercise-library/pull-up",
+      "provider": "NASM",
+      "variant": "Unassisted pull-up",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "pulldown",
+    "name": "Lat pulldown",
+    "equipment": "High cable station",
+    "group": "Back",
+    "note": "Check that the station has the appropriate bar and setup."
+  },
+  {
+    "id": "leg-press",
+    "name": "45\u00b0 leg press",
+    "equipment": "Matrix plate-loaded leg press",
+    "group": "Legs",
+    "note": "Record plates added; note if your load includes the sled.",
+    "demo": {
+      "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+      "provider": "Muscle & Strength",
+      "variant": "45\u00b0 plate-loaded leg press",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "goblet",
+    "name": "Goblet squat",
+    "equipment": "Dumbbell or kettlebell",
+    "group": "Legs",
+    "note": "Record the single weight held.",
+    "demo": {
+      "url": "https://www.nasm.org/resource-center/exercise-library/goblet-squat",
+      "provider": "NASM",
+      "variant": "Goblet squat",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "rdl",
+    "name": "Romanian deadlift",
+    "equipment": "Barbell or dumbbells",
+    "group": "Legs",
+    "note": "Specify barbell total or weight per dumbbell in notes.",
+    "demo": {
+      "url": "https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift",
+      "provider": "NASM",
+      "variant": "Dumbbell variation",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "split-squat",
+    "name": "Split squat",
+    "equipment": "Dumbbells + bench (optional)",
+    "group": "Legs",
+    "note": "Record reps per side; weight per dumbbell."
+  },
+  {
+    "id": "shoulder-press",
+    "name": "Dumbbell shoulder press",
+    "equipment": "Dumbbells + adjustable bench",
+    "group": "Shoulders",
+    "note": "Record weight per dumbbell."
+  },
+  {
+    "id": "lateral",
+    "name": "Lateral raise",
+    "equipment": "Dumbbells",
+    "group": "Shoulders",
+    "note": "Record weight per dumbbell."
+  },
+  {
+    "id": "face-pull",
+    "name": "Face pull",
+    "equipment": "Cable station + rope",
+    "group": "Shoulders",
+    "note": "Record displayed cable load.",
+    "demo": {
+      "url": "https://www.catalystathletics.com/exercise/767/Face-Pull/",
+      "provider": "Catalyst Athletics",
+      "variant": "Cable or band face pull",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "curl",
+    "name": "Dumbbell curl",
+    "equipment": "Dumbbells",
+    "group": "Arms",
+    "note": "Record weight per dumbbell."
+  },
+  {
+    "id": "triceps",
+    "name": "Triceps pushdown",
+    "equipment": "Cable station",
+    "group": "Arms",
+    "note": "Record attachment in notes if changed."
+  },
+  {
+    "id": "pallof",
+    "name": "Pallof press",
+    "equipment": "Cable station",
+    "group": "Core",
+    "note": "Record reps per side.",
+    "demo": {
+      "url": "https://www.seattleymca.org/blog/how-pallof-press",
+      "provider": "YMCA of Greater Seattle",
+      "variant": "Standing cable Pallof press",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "carry",
+    "name": "Farmer carry",
+    "equipment": "Dumbbells or kettlebells + turf",
+    "group": "Conditioning",
+    "note": "Use notes for distance/time; record weight per hand."
+  },
+  {
+    "id": "sled",
+    "name": "Sled push / drag",
+    "equipment": "Sled + turf lane",
+    "group": "Conditioning",
+    "note": "Use notes for distance, time, direction and plates added.",
+    "demo": {
+      "url": "https://www.strengthlog.com/sled-push/",
+      "provider": "StrengthLog",
+      "variant": "Forward sled push \u00b7 not a drag",
+      "verifiedAt": "2026-09-14"
+    }
+  },
+  {
+    "id": "trx-row",
+    "name": "Suspension row",
+    "equipment": "TRX / suspension straps",
+    "group": "Back",
+    "note": "Use 0 for bodyweight; note stance."
+  }
+]
