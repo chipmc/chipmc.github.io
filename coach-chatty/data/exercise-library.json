@@ -185,5 +185,18 @@
     "equipment": "TRX / suspension straps",
     "group": "Back",
     "note": "Use 0 for bodyweight; note stance."
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging leg raises",
+    "equipment": "Pull-up bar",
+    "group": "Core",
+    "note": "Hang from a secure bar. Raise and lower your legs with control, without swinging. One raise-and-lower counts as one rep. Enter 0 for bodyweight only; record any added load. Note bent-knee variations.",
+    "demo": {
+      "url": "https://www.muscleandstrength.com/exercises/hanging-leg-raise.html",
+      "provider": "Muscle & Strength",
+      "variant": "Hanging straight-leg raise",
+      "verifiedAt": "2026-09-14"
+    }
   }
 ]

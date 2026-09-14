@@ -1,4 +1,4 @@
-const CACHE='coach-chatty-shell-v2';
+const CACHE='coach-chatty-shell-v3';
 const ROOT=new URL('./',self.location).href;
 const FILES=['./','index.html','styles.css','app.js','icon.svg','manifest.json','data/current-workout.json','data/exercise-library.json','data/equipment.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()))});
