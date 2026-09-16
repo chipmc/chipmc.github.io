@@ -1,122 +1,99 @@
 {
   "schemaVersion": 1,
   "id": "2026-09-16-full-body-35",
-  "revision": 1,
+  "revision": 2,
   "date": "2026-09-16",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 35,
-  "title": "Full body \u00b7 16 September",
-  "label": "35-MINUTE STRENGTH SESSION",
+  "title": "Full body · 16 September",
+  "label": "35-MINUTE FULL-BODY STRENGTH",
   "unit": "kg",
-  "coachNote": "35 minutes total: 4 minutes warmup and light practice sets; 20 minutes for the first four exercises; 9 minutes for calf work; 2 minutes to finish and log. Use moderate loads with about 3 reps in reserve. Rest 60 seconds between sets, longer if needed. Choose loads from how warmup sets feel; previous entries are references, not a requirement to increase. Keep calf work controlled and stop if it causes pain. If time runs short, omit a final set rather than rushing.",
+  "coachNote": "Full-body strength today; no dedicated cardio because the last workout was elliptical. Keep transitions tight and rest about 45–60 seconds. Calves are a priority: controlled reps, full range, no bouncing. If time runs short, protect calf work and omit a final accessory set rather than rushing.",
   "exercises": [
     {
-      "id": "leg-press",
-      "name": "45\u00b0 leg press",
-      "equipment": "Matrix plate-loaded leg press",
-      "target": "2 sets \u00d7 10 reps \u00b7 about 3 reps in reserve",
-      "note": "Light practice set first. Record plates added and note whether your load includes the sled.",
+      "id": "standing-calf-raise",
+      "name": "Standing calf raises",
+      "equipment": "Stable hand support + optional dumbbell",
+      "target": "3 sets × 10 reps",
+      "note": "Prefer single-leg if you can complete 10 clean reps; otherwise double-leg with light hand support. Rise fully, pause 1 second at the top, lower for 3 seconds. Record added weight only.",
+      "restSeconds": 45,
+      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
+    },
+    {
+      "id": "weighted-wall-sit-calf-raise",
+      "name": "Weighted wall-sit calf raises",
+      "equipment": "Wall + weight plate or dumbbell",
+      "target": "3 sets × 10 heel raises",
+      "note": "Back against wall, knees bent comfortably. Secure weight across thighs away from kneecaps. Lift both heels evenly and lower slowly; no bouncing. Use a load that makes reps 8–10 work while staying controlled.",
+      "restSeconds": 45,
+      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet squat",
+      "equipment": "Kettlebell or dumbbell",
+      "target": "3 sets × 8–10 reps @ 20–24 kg",
       "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
+      "sets": [{"weight": 20, "reps": 10},{"weight": 20, "reps": 10},{"weight": 20, "reps": 10}]
     },
     {
       "id": "db-bench",
       "name": "Dumbbell bench press",
       "equipment": "Dumbbells + adjustable bench",
-      "target": "2 sets \u00d7 10 reps \u00b7 about 3 reps in reserve",
-      "note": "Light practice set first. Record weight per dumbbell.",
+      "target": "3 sets × 8 reps @ 26 kg each",
+      "note": "Weight is per dumbbell.",
       "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
+      "sets": [{"weight": 26, "reps": 8},{"weight": 26, "reps": 8},{"weight": 26, "reps": 8}]
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat pulldown",
+      "equipment": "Precor lat pulldown",
+      "target": "3 sets × 8 reps @ 59–66 kg",
+      "restSeconds": 60,
+      "sets": [{"weight": 59, "reps": 8},{"weight": 66, "reps": 8},{"weight": 66, "reps": 8}]
+    },
+    {
+      "id": "kb-rdl",
+      "name": "Kettlebell Romanian deadlift",
+      "equipment": "Kettlebell",
+      "target": "3 sets × 10 reps @ 28 kg; heavier only if comfortable and available",
+      "restSeconds": 60,
+      "sets": [{"weight": 28, "reps": 10},{"weight": 28, "reps": 10},{"weight": 28, "reps": 10}]
     },
     {
       "id": "cable-row",
       "name": "Cable row",
       "equipment": "Cable station",
-      "target": "2 sets \u00d7 10 reps \u00b7 about 3 reps in reserve",
-      "note": "Light practice set first. Record the machine's displayed load.",
+      "target": "2 sets × 10 reps · challenging but clean",
       "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
+      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
     },
     {
-      "id": "db-rdl",
-      "name": "Dumbbell Romanian deadlift",
-      "equipment": "Dumbbells",
-      "target": "2 sets \u00d7 10 reps \u00b7 about 3 reps in reserve",
-      "note": "Light practice set first. Record weight per dumbbell.",
+      "id": "hip-thrust",
+      "name": "Hip thrust",
+      "equipment": "Bench + barbell",
+      "target": "2 sets × 8–10 reps @ 40–50 kg",
       "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
+      "sets": [{"weight": 40, "reps": 10},{"weight": 40, "reps": 10}]
     },
     {
-      "id": "standing-calf-raise",
-      "name": "Standing calf raises",
-      "equipment": "Dumbbell + stable hand support",
-      "target": "2 sets \u00d7 12 reps \u00b7 moderate load",
-      "note": "Use both feet on level ground, knees straight but not locked. Keep one hand on stable support and hold a light dumbbell in the other. Rise evenly, pause briefly, then lower slowly without bouncing. Record total added weight, excluding bodyweight. Start with bodyweight as a practice set.",
-      "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        }
-      ]
+      "id": "hanging-knee-raise",
+      "name": "Hanging knee raises",
+      "equipment": "Pull-up bar",
+      "target": "3 sets × 8–10 reps",
+      "note": "Straighten the legs progressively only while maintaining control.",
+      "restSeconds": 45,
+      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
     },
     {
-      "id": "weighted-wall-sit-calf-raise",
-      "name": "Weighted wall-sit calf raises",
-      "equipment": "Wall + light weight plate or dumbbell",
-      "target": "2 sets \u00d7 10 heel raises \u00b7 light added weight",
-      "note": "Back against the wall, feet hip-width, knees bent at a comfortable depth. Secure a light weight across the thighs, away from the kneecaps, using your hands. Keep hips against the wall; lift both heels evenly and lower slowly. One heel raise and lower is one rep, not seconds. Record total added weight. Use bodyweight if control or comfort changes.",
-      "restSeconds": 60,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
+      "id": "sled-push",
+      "name": "Sled push",
+      "equipment": "Sled + 10 m turf lane",
+      "target": "4 × 20 m @ 60 kg · about 30 sec recovery",
+      "note": "One set is 10 m out + 10 m back.",
+      "restSeconds": 30,
+      "sets": [{"weight": 60, "reps": null},{"weight": 60, "reps": null},{"weight": 60, "reps": null},{"weight": 60, "reps": null}]
     }
   ]
 }
