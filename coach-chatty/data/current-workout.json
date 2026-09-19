@@ -1,99 +1,77 @@
 {
   "schemaVersion": 1,
-  "id": "2026-09-16-full-body-35",
-  "revision": 2,
-  "date": "2026-09-16",
+  "id": "2026-09-19-full-body-40",
+  "revision": 1,
+  "date": "2026-09-19",
   "timeZone": "Asia/Singapore",
-  "durationMinutes": 35,
-  "title": "Full body · 16 September",
-  "label": "35-MINUTE FULL-BODY STRENGTH",
+  "durationMinutes": 40,
+  "title": "Full body · 19 September",
+  "label": "40-MINUTE FULL-BODY STRENGTH",
   "unit": "kg",
-  "coachNote": "Full-body strength today; no dedicated cardio because the last workout was elliptical. Keep transitions tight and rest about 45–60 seconds. Calves are a priority: controlled reps, full range, no bouncing. If time runs short, protect calf work and omit a final accessory set rather than rushing.",
+  "coachNote": "40 minutes in the gym. Your walk is the general warm-up; do a light ramp-up set before the first loaded movements. Keep working sets around RPE 7–8, roughly 2–3 good reps in reserve. Rest 75–90 seconds on the first four movements and about 60 seconds on calves/core. Finish with sleds. Mike Tyson push-ups are saved for a future rotation rather than added today.",
   "exercises": [
-    {
-      "id": "standing-calf-raise",
-      "name": "Standing calf raises",
-      "equipment": "Stable hand support + optional dumbbell",
-      "target": "3 sets × 10 reps",
-      "note": "Prefer single-leg if you can complete 10 clean reps; otherwise double-leg with light hand support. Rise fully, pause 1 second at the top, lower for 3 seconds. Record added weight only.",
-      "restSeconds": 45,
-      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
-    },
-    {
-      "id": "weighted-wall-sit-calf-raise",
-      "name": "Weighted wall-sit calf raises",
-      "equipment": "Wall + weight plate or dumbbell",
-      "target": "3 sets × 10 heel raises",
-      "note": "Back against wall, knees bent comfortably. Secure weight across thighs away from kneecaps. Lift both heels evenly and lower slowly; no bouncing. Use a load that makes reps 8–10 work while staying controlled.",
-      "restSeconds": 45,
-      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
-    },
     {
       "id": "goblet-squat",
       "name": "Goblet squat",
       "equipment": "Kettlebell or dumbbell",
       "target": "3 sets × 8–10 reps @ 20–24 kg",
-      "restSeconds": 60,
-      "sets": [{"weight": 20, "reps": 10},{"weight": 20, "reps": 10},{"weight": 20, "reps": 10}]
+      "note": "Start at 20 kg and move toward 24 kg only if the first set is crisp and comfortable.",
+      "restSeconds": 75,
+      "sets": [{"weight":20,"reps":10},{"weight":20,"reps":10},{"weight":20,"reps":10}]
     },
     {
       "id": "db-bench",
       "name": "Dumbbell bench press",
       "equipment": "Dumbbells + adjustable bench",
-      "target": "3 sets × 8 reps @ 26 kg each",
-      "note": "Weight is per dumbbell.",
-      "restSeconds": 60,
-      "sets": [{"weight": 26, "reps": 8},{"weight": 26, "reps": 8},{"weight": 26, "reps": 8}]
+      "target": "3 sets × 8–10 reps @ 26 kg each",
+      "note": "Weight is per dumbbell. If 26 kg × 10 is clean with 2–3 reps in reserve, record it and we can progress next time.",
+      "restSeconds": 90,
+      "sets": [{"weight":26,"reps":8},{"weight":26,"reps":8},{"weight":26,"reps":8}]
     },
     {
       "id": "lat-pulldown",
       "name": "Lat pulldown",
       "equipment": "Precor lat pulldown",
-      "target": "3 sets × 8 reps @ 59–66 kg",
-      "restSeconds": 60,
-      "sets": [{"weight": 59, "reps": 8},{"weight": 66, "reps": 8},{"weight": 66, "reps": 8}]
+      "target": "3 sets × 8–10 reps @ 59–66 kg",
+      "note": "Use clean controlled reps; don't chase the heavier setting if form changes.",
+      "restSeconds": 90,
+      "sets": [{"weight":59,"reps":10},{"weight":66,"reps":8},{"weight":66,"reps":8}]
     },
     {
-      "id": "kb-rdl",
-      "name": "Kettlebell Romanian deadlift",
-      "equipment": "Kettlebell",
-      "target": "3 sets × 10 reps @ 28 kg; heavier only if comfortable and available",
-      "restSeconds": 60,
-      "sets": [{"weight": 28, "reps": 10},{"weight": 28, "reps": 10},{"weight": 28, "reps": 10}]
+      "id": "db-rdl",
+      "name": "Dumbbell Romanian deadlift",
+      "equipment": "Dumbbells",
+      "target": "3 sets × 8–10 reps · controlled hinge",
+      "note": "Choose a comfortable pair after a light practice set. Record weight per dumbbell.",
+      "restSeconds": 90,
+      "sets": [{"weight":null,"reps":10},{"weight":null,"reps":10},{"weight":null,"reps":10}]
     },
     {
-      "id": "cable-row",
-      "name": "Cable row",
-      "equipment": "Cable station",
-      "target": "2 sets × 10 reps · challenging but clean",
+      "id": "standing-calf-raise",
+      "name": "Standing calf raises",
+      "equipment": "Stable hand support + optional dumbbell",
+      "target": "3 sets × 10–12 reps",
+      "note": "Controlled full range: pause at the top and lower slowly. Prefer single-leg if you can maintain clean form.",
       "restSeconds": 60,
-      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
-    },
-    {
-      "id": "hip-thrust",
-      "name": "Hip thrust",
-      "equipment": "Bench + barbell",
-      "target": "2 sets × 8–10 reps @ 40–50 kg",
-      "restSeconds": 60,
-      "sets": [{"weight": 40, "reps": 10},{"weight": 40, "reps": 10}]
+      "sets": [{"weight":null,"reps":10},{"weight":null,"reps":10},{"weight":null,"reps":10}]
     },
     {
       "id": "hanging-knee-raise",
-      "name": "Hanging knee raises",
+      "name": "Hanging knee / leg raises",
       "equipment": "Pull-up bar",
-      "target": "3 sets × 8–10 reps",
-      "note": "Straighten the legs progressively only while maintaining control.",
-      "restSeconds": 45,
-      "sets": [{"weight": null, "reps": 10},{"weight": null, "reps": 10},{"weight": null, "reps": 10}]
+      "target": "3 sets × 8–12 reps",
+      "note": "Use the hardest controlled version you can perform without swinging; progressively straighten the legs.",
+      "restSeconds": 60,
+      "sets": [{"weight":0,"reps":10},{"weight":0,"reps":10},{"weight":0,"reps":10}]
     },
     {
       "id": "sled-push",
       "name": "Sled push",
       "equipment": "Sled + 10 m turf lane",
-      "target": "4 × 20 m @ 60 kg · about 30 sec recovery",
-      "note": "One set is 10 m out + 10 m back.",
-      "restSeconds": 30,
-      "sets": [{"weight": 60, "reps": null},{"weight": 60, "reps": null},{"weight": 60, "reps": null},{"weight": 60, "reps": null}]
+      "target": "4 × 20 m @ about 60 kg",
+      "note": "One set is 10 m out + 10 m back. Keep these strong but controlled; record the actual added load.",
+      "restSeconds": 75,
+      "sets": [{"weight":60,"reps":1},{"weight":60,"reps":1},{"weight":60,"reps":1},{"weight":60,"reps":1}]
     }
   ]
 }
