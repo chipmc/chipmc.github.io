@@ -1,77 +1,172 @@
 {
   "schemaVersion": 1,
   "id": "2026-09-19-full-body-40",
-  "revision": 1,
+  "revision": 2,
   "date": "2026-09-19",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
   "title": "Full body · 19 September",
-  "label": "40-MINUTE FULL-BODY STRENGTH",
+  "label": "40-MINUTE FULL-BODY · SUPERSETS",
   "unit": "kg",
-  "coachNote": "40 minutes in the gym. Your walk is the general warm-up; do a light ramp-up set before the first loaded movements. Keep working sets around RPE 7–8, roughly 2–3 good reps in reserve. Rest 75–90 seconds on the first four movements and about 60 seconds on calves/core. Finish with sleds. Mike Tyson push-ups are saved for a future rotation rather than added today.",
+  "coachNote": "40 minutes in the gym. SUPERSET FORMAT: A1 Goblet squat → A2 DB bench, then rest 75–90 sec; repeat 3 rounds. B1 Lat pulldown → B2 DB Romanian deadlift, then rest 75–90 sec; repeat 3 rounds. C1 Standing calf raise → C2 Hanging knee/leg raise, then rest ~60 sec; repeat 3 rounds. Move directly between the two exercises in each pair with only transition time. Finish with 4 × 20 m sled pushes, resting 60–75 sec. Working sets around RPE 7–8 / 2–3 reps in reserve.",
   "exercises": [
     {
       "id": "goblet-squat",
-      "name": "Goblet squat",
+      "name": "A1 · SUPERSET A — Goblet squat",
       "equipment": "Kettlebell or dumbbell",
       "target": "3 sets × 8–10 reps @ 20–24 kg",
-      "note": "Start at 20 kg and move toward 24 kg only if the first set is crisp and comfortable.",
+      "note": "Pair with A2 DB bench. Do A1 → A2, then rest 75–90 sec. Start at 20 kg and move toward 24 kg only if the first set is crisp and comfortable.",
       "restSeconds": 75,
-      "sets": [{"weight":20,"reps":10},{"weight":20,"reps":10},{"weight":20,"reps":10}]
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10
+        },
+        {
+          "weight": 20,
+          "reps": 10
+        },
+        {
+          "weight": 20,
+          "reps": 10
+        }
+      ]
     },
     {
       "id": "db-bench",
-      "name": "Dumbbell bench press",
+      "name": "A2 · SUPERSET A — Dumbbell bench press",
       "equipment": "Dumbbells + adjustable bench",
       "target": "3 sets × 8–10 reps @ 26 kg each",
-      "note": "Weight is per dumbbell. If 26 kg × 10 is clean with 2–3 reps in reserve, record it and we can progress next time.",
+      "note": "Immediately after A1 goblet squat. After this exercise rest 75–90 sec, then repeat A1/A2. Weight is per dumbbell. If 26 kg × 10 is clean with 2–3 reps in reserve, record it and we can progress next time.",
       "restSeconds": 90,
-      "sets": [{"weight":26,"reps":8},{"weight":26,"reps":8},{"weight":26,"reps":8}]
+      "sets": [
+        {
+          "weight": 26,
+          "reps": 8
+        },
+        {
+          "weight": 26,
+          "reps": 8
+        },
+        {
+          "weight": 26,
+          "reps": 8
+        }
+      ]
     },
     {
       "id": "lat-pulldown",
-      "name": "Lat pulldown",
+      "name": "B1 · SUPERSET B — Lat pulldown",
       "equipment": "Precor lat pulldown",
       "target": "3 sets × 8–10 reps @ 59–66 kg",
-      "note": "Use clean controlled reps; don't chase the heavier setting if form changes.",
+      "note": "Pair with B2 DB Romanian deadlift. Do B1 → B2, then rest 75–90 sec. Use clean controlled reps; don't chase the heavier setting if form changes.",
       "restSeconds": 90,
-      "sets": [{"weight":59,"reps":10},{"weight":66,"reps":8},{"weight":66,"reps":8}]
+      "sets": [
+        {
+          "weight": 59,
+          "reps": 10
+        },
+        {
+          "weight": 66,
+          "reps": 8
+        },
+        {
+          "weight": 66,
+          "reps": 8
+        }
+      ]
     },
     {
       "id": "db-rdl",
-      "name": "Dumbbell Romanian deadlift",
+      "name": "B2 · SUPERSET B — Dumbbell Romanian deadlift",
       "equipment": "Dumbbells",
       "target": "3 sets × 8–10 reps · controlled hinge",
-      "note": "Choose a comfortable pair after a light practice set. Record weight per dumbbell.",
+      "note": "Immediately after B1 lat pulldown. After this exercise rest 75–90 sec, then repeat B1/B2. Choose a comfortable pair after a light practice set. Record weight per dumbbell.",
       "restSeconds": 90,
-      "sets": [{"weight":null,"reps":10},{"weight":null,"reps":10},{"weight":null,"reps":10}]
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
     },
     {
       "id": "standing-calf-raise",
-      "name": "Standing calf raises",
+      "name": "C1 · SUPERSET C — Standing calf raises",
       "equipment": "Stable hand support + optional dumbbell",
       "target": "3 sets × 10–12 reps",
-      "note": "Controlled full range: pause at the top and lower slowly. Prefer single-leg if you can maintain clean form.",
+      "note": "Pair with C2 hanging knee/leg raise. Do C1 → C2, then rest ~60 sec. Controlled full range: pause at the top and lower slowly. Prefer single-leg if you can maintain clean form.",
       "restSeconds": 60,
-      "sets": [{"weight":null,"reps":10},{"weight":null,"reps":10},{"weight":null,"reps":10}]
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
     },
     {
       "id": "hanging-knee-raise",
-      "name": "Hanging knee / leg raises",
+      "name": "C2 · SUPERSET C — Hanging knee / leg raises",
       "equipment": "Pull-up bar",
       "target": "3 sets × 8–12 reps",
-      "note": "Use the hardest controlled version you can perform without swinging; progressively straighten the legs.",
+      "note": "Immediately after C1 calf raises. After this exercise rest ~60 sec, then repeat C1/C2. Use the hardest controlled version you can perform without swinging; progressively straighten the legs.",
       "restSeconds": 60,
-      "sets": [{"weight":0,"reps":10},{"weight":0,"reps":10},{"weight":0,"reps":10}]
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10
+        },
+        {
+          "weight": 0,
+          "reps": 10
+        },
+        {
+          "weight": 0,
+          "reps": 10
+        }
+      ]
     },
     {
       "id": "sled-push",
-      "name": "Sled push",
+      "name": "FINISHER — Sled push",
       "equipment": "Sled + 10 m turf lane",
       "target": "4 × 20 m @ about 60 kg",
-      "note": "One set is 10 m out + 10 m back. Keep these strong but controlled; record the actual added load.",
+      "note": "4 × 20 m. Rest 60–75 sec between runs. One set is 10 m out + 10 m back. Keep these strong but controlled; record the actual added load.",
       "restSeconds": 75,
-      "sets": [{"weight":60,"reps":1},{"weight":60,"reps":1},{"weight":60,"reps":1},{"weight":60,"reps":1}]
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 1
+        },
+        {
+          "weight": 60,
+          "reps": 1
+        },
+        {
+          "weight": 60,
+          "reps": 1
+        },
+        {
+          "weight": 60,
+          "reps": 1
+        }
+      ]
     }
   ]
 }
