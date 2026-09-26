@@ -1,20 +1,64 @@
 {
   "schemaVersion": 1,
-  "id": "2026-09-23-full-body-40",
+  "id": "2026-09-26-lower-body-40",
   "revision": 1,
-  "date": "2026-09-23",
+  "date": "2026-09-26",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body · 23 September",
-  "label": "40-MINUTE FULL BODY · DELTS + CALF PT",
+  "title": "Lower body · 26 September",
+  "label": "40-MINUTE LOWER BODY · ELBOW-FRIENDLY + CALF PT",
   "unit": "kg",
-  "coachNote": "40-minute session. SUPERSETS: A1 Leg press → A2 DB lateral raise, rest 75 sec × 3. B1 DB bench → B2 Cable row, rest 75–90 sec × 3. C1 Hip thrust → C2 Cable face pull, rest 60–75 sec × 3. Then complete the calf PT block: single-leg standing calf raises 3 × 10 EACH LEG with hand support as needed, full rise, brief top hold, ~3-sec lowering. Do not sacrifice calf PT if time is tight. Optional core finisher only if time remains.",
+  "coachNote": "Lower body only today because the right elbow is hurting. Avoid upper-body loading and gripping-heavy work. SUPERSETS: A1 Leg extension → A2 Leg curl, rest 45–60 sec × 3. B1 45° leg press → B2 Hip thrust, rest 75–90 sec × 3. Then calf PT: single-leg standing calf raise 3 × 10 EACH LEG with controlled 3-sec lowering, followed by seated calf raise 3 × 10–12. Finish with elbow-free core if time remains. Do not aggressively progress calf resistance today.",
   "exercises": [
     {
+      "id": "leg-extension",
+      "name": "A1 · SUPERSET A — Leg extension",
+      "equipment": "Leg extension machine",
+      "target": "3 × 10–12 @ RPE 6–7",
+      "note": "Controlled reps; record the machine load.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "A2 · SUPERSET A — Leg curl",
+      "equipment": "Leg curl machine",
+      "target": "3 × 10–12 @ RPE 6–7",
+      "note": "Controlled reps. After this exercise rest 45–60 sec, then repeat A1/A2.",
+      "restSeconds": 60,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        }
+      ]
+    },
+    {
       "id": "leg-press",
-      "name": "A1 · SUPERSET A — 45° leg press",
+      "name": "B1 · SUPERSET B — 45° leg press",
       "equipment": "Matrix plate-loaded leg press",
-      "target": "3 × 10 · moderate-heavy · ~2–3 reps in reserve",
+      "target": "3 × 10 @ about RPE 7",
       "note": "Record plates added and note whether the load includes the sled.",
       "restSeconds": 0,
       "sets": [
@@ -33,112 +77,24 @@
       ]
     },
     {
-      "id": "db-lateral-raise",
-      "name": "A2 · SUPERSET A — Dumbbell lateral raise",
-      "equipment": "Dumbbells",
-      "target": "3 × 10–12",
-      "note": "Controlled medial-delt work. No swinging. After this exercise rest 75 sec, then repeat A1/A2.",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        }
-      ]
-    },
-    {
-      "id": "db-bench",
-      "name": "B1 · SUPERSET B — Dumbbell bench press",
-      "equipment": "Dumbbells + adjustable bench",
-      "target": "3 × 8 @ 28 kg each",
-      "note": "Weight is PER dumbbell.",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": 28,
-          "reps": 8
-        },
-        {
-          "weight": 28,
-          "reps": 8
-        },
-        {
-          "weight": 28,
-          "reps": 8
-        }
-      ]
-    },
-    {
-      "id": "cable-row",
-      "name": "B2 · SUPERSET B — Cable row",
-      "equipment": "Cable station",
-      "target": "3 × 8–10 · challenging but clean",
-      "note": "After this exercise rest 75–90 sec, then repeat B1/B2.",
+      "id": "hip-thrust",
+      "name": "B2 · SUPERSET B — Hip thrust",
+      "equipment": "Bench + barbell",
+      "target": "3 × 10 · start 45 kg; progress toward 50 kg if first set is easy",
+      "note": "Last session was 45 kg × 10 × 3 at RPE 5. Controlled lockout; avoid low-back hyperextension. After this exercise rest 75–90 sec.",
       "restSeconds": 90,
       "sets": [
         {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "hip-thrust",
-      "name": "C1 · SUPERSET C — Hip thrust",
-      "equipment": "Bench + barbell",
-      "target": "3 × 8–10 @ about 45–50 kg",
-      "note": "Controlled lockout; don't hyperextend the low back.",
-      "restSeconds": 0,
-      "sets": [
-        {
           "weight": 45,
           "reps": 10
         },
         {
-          "weight": 45,
+          "weight": 50,
           "reps": 10
         },
         {
-          "weight": 45,
+          "weight": 50,
           "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "face-pull",
-      "name": "C2 · SUPERSET C — Cable face pull",
-      "equipment": "Cable station + rope",
-      "target": "3 × 12–15",
-      "note": "Rear delts/scapular control. Pull toward upper face with elbows high but comfortable. After this exercise rest 60–75 sec.",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
         }
       ]
     },
@@ -147,7 +103,7 @@
       "name": "PT · Single-leg standing calf raise",
       "equipment": "Stable hand support",
       "target": "3 × 10 EACH LEG",
-      "note": "PT PRIORITY. Full rise, brief hold at top, ~3-second lowering. Use hand support as needed. Enter 0 kg if bodyweight only.",
+      "note": "PT PRIORITY. Full rise, brief top hold, ~3-second lowering. Use hand support as needed. Last session: RPE 5, pain 3/10; do not aggressively add load today.",
       "restSeconds": 45,
       "sets": [
         {
@@ -165,13 +121,39 @@
       ]
     },
     {
-      "id": "hanging-knee-raise",
-      "name": "OPTIONAL · Hanging leg/knee raise or ab wheel",
-      "equipment": "Pull-up bar or ab wheel",
-      "target": "2 × 8–12 only if time remains",
-      "note": "Optional. If using ab wheel, enter it as the substitution.",
+      "id": "seated-calf-raise",
+      "name": "PT · Seated calf raise",
+      "equipment": "Seated calf raise setup/machine",
+      "target": "3 × 10–12",
+      "note": "Controlled full range. Last session RPE 6, pain 2/10. Record actual load if known.",
       "restSeconds": 45,
       "sets": [
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        },
+        {
+          "weight": null,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "dead-bug",
+      "name": "OPTIONAL · Dead bug / reverse crunch",
+      "equipment": "Floor/mat",
+      "target": "3 × 8–10 each side or 10–15 reverse crunches",
+      "note": "Elbow-free core only if time remains. If doing reverse crunches, enter as substitution.",
+      "restSeconds": 45,
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10
+        },
         {
           "weight": 0,
           "reps": 10
