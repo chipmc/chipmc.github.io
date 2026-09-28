@@ -1,43 +1,53 @@
 {
   "schemaVersion": 1,
-  "id": "2026-09-26-lower-body-40",
+  "id": "2026-09-28-recovery-mix-40",
   "revision": 1,
-  "date": "2026-09-26",
+  "date": "2026-09-28",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Lower body · 26 September",
-  "label": "40-MINUTE LOWER BODY · ELBOW-FRIENDLY + CALF PT",
+  "title": "Cardio + light strength · 28 September",
+  "label": "40-MINUTE MIX · ELBOW-FRIENDLY",
   "unit": "kg",
-  "coachNote": "Lower body only today because the right elbow is hurting. Avoid upper-body loading and gripping-heavy work. SUPERSETS: A1 Leg extension → A2 Leg curl, rest 45–60 sec × 3. B1 45° leg press → B2 Hip thrust, rest 75–90 sec × 3. Then calf PT: single-leg standing calf raise 3 × 10 EACH LEG with controlled 3-sec lowering, followed by seated calf raise 3 × 10–12. Finish with elbow-free core if time remains. Do not aggressively progress calf resistance today.",
+  "coachNote": "Recovery-biased session after yesterday's elliptical + 35-floor stair climb. Right elbow is improved but not 100%, so no heavy pressing, pulling, hanging, or gripping. Start with 20 min elliptical at RPE 5–6, then 2 light strength rounds, calf PT, and a cautious PT-style wrist-curl trial. Stop any upper-body movement that reproduces or increases right-elbow pain. Finish with 5 min easy elliptical if time allows.",
   "exercises": [
     {
-      "id": "leg-extension",
-      "name": "A1 · SUPERSET A — Leg extension",
-      "equipment": "Leg extension machine",
-      "target": "3 × 10–12 @ RPE 6–7",
-      "note": "Controlled reps; record the machine load.",
+      "id": "elliptical-main",
+      "name": "CARDIO — Elliptical",
+      "equipment": "Elliptical trainer",
+      "target": "20 minutes total · 5 min easy + 15 min RPE 5–6",
+      "note": "Steady aerobic work, no intervals. Enter resistance/level in weight if useful, and reps=1 to mark complete.",
       "restSeconds": 0,
       "sets": [
         {
           "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
+          "reps": 1
         }
       ]
     },
     {
-      "id": "leg-curl",
-      "name": "A2 · SUPERSET A — Leg curl",
-      "equipment": "Leg curl machine",
-      "target": "3 × 10–12 @ RPE 6–7",
-      "note": "Controlled reps. After this exercise rest 45–60 sec, then repeat A1/A2.",
+      "id": "goblet-squat",
+      "name": "A1 · LIGHT CIRCUIT — Goblet squat",
+      "equipment": "Kettlebell or dumbbell",
+      "target": "2 × 10 @ 24 kg if elbow is comfortable holding it",
+      "note": "If gripping the weight bothers the right elbow, reduce load or skip.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": 24,
+          "reps": 10
+        },
+        {
+          "weight": 24,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "kb-swing",
+      "name": "A2 · LIGHT CIRCUIT — Two-hand kettlebell swing",
+      "equipment": "Kettlebell",
+      "target": "2 × 12–15 · light/moderate",
+      "note": "Hip-driven Russian-style swing to about chest height. Arms guide the bell; do not turn it into a front raise. Choose a conservative swing load and stop if gripping bothers the elbow.",
       "restSeconds": 60,
       "sets": [
         {
@@ -47,47 +57,17 @@
         {
           "weight": null,
           "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
-        }
-      ]
-    },
-    {
-      "id": "leg-press",
-      "name": "B1 · SUPERSET B — 45° leg press",
-      "equipment": "Matrix plate-loaded leg press",
-      "target": "3 × 10 @ about RPE 7",
-      "note": "Record plates added and note whether the load includes the sled.",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
         }
       ]
     },
     {
       "id": "hip-thrust",
-      "name": "B2 · SUPERSET B — Hip thrust",
+      "name": "A3 · LIGHT CIRCUIT — Hip thrust",
       "equipment": "Bench + barbell",
-      "target": "3 × 10 · start 45 kg; progress toward 50 kg if first set is easy",
-      "note": "Last session was 45 kg × 10 × 3 at RPE 5. Controlled lockout; avoid low-back hyperextension. After this exercise rest 75–90 sec.",
-      "restSeconds": 90,
+      "target": "2 × 10 @ 50 kg",
+      "note": "Controlled lockout; avoid low-back hyperextension.",
+      "restSeconds": 60,
       "sets": [
-        {
-          "weight": 45,
-          "reps": 10
-        },
         {
           "weight": 50,
           "reps": 10
@@ -103,7 +83,7 @@
       "name": "PT · Single-leg standing calf raise",
       "equipment": "Stable hand support",
       "target": "3 × 10 EACH LEG",
-      "note": "PT PRIORITY. Full rise, brief top hold, ~3-second lowering. Use hand support as needed. Last session: RPE 5, pain 3/10; do not aggressively add load today.",
+      "note": "PT priority. Full rise, brief top hold, ~3-second lowering. Last session was pain-free.",
       "restSeconds": 45,
       "sets": [
         {
@@ -121,46 +101,52 @@
       ]
     },
     {
-      "id": "seated-calf-raise",
-      "name": "PT · Seated calf raise",
-      "equipment": "Seated calf raise setup/machine",
-      "target": "3 × 10–12",
-      "note": "Controlled full range. Last session RPE 6, pain 2/10. Record actual load if known.",
+      "id": "wrist-flexion-curl",
+      "name": "PT TRIAL · Palms-up dumbbell wrist curl",
+      "equipment": "Light dumbbell + bench",
+      "target": "Start 1 × 10–12 each arm; up to 2–3 sets only if comfortable",
+      "note": "Forearm fully supported, palm up, wrist/hand just beyond bench edge. Start very light (~2–3 kg). If this matches what PT demonstrated, allow a gentle finger roll then close fingers and curl wrist up. Stop if right-elbow pain is reproduced or increases. Confirm exact version/load/reps with PT next visit.",
       "restSeconds": 45,
       "sets": [
         {
-          "weight": null,
-          "reps": 12
+          "weight": 2,
+          "reps": 10
         },
         {
-          "weight": null,
-          "reps": 12
-        },
-        {
-          "weight": null,
-          "reps": 12
+          "weight": 2,
+          "reps": 10
         }
       ]
     },
     {
-      "id": "dead-bug",
-      "name": "OPTIONAL · Dead bug / reverse crunch",
+      "id": "reverse-crunch",
+      "name": "CORE — Reverse crunch",
       "equipment": "Floor/mat",
-      "target": "3 × 8–10 each side or 10–15 reverse crunches",
-      "note": "Elbow-free core only if time remains. If doing reverse crunches, enter as substitution.",
+      "target": "2 × 10–15",
+      "note": "Elbow-free core work.",
       "restSeconds": 45,
       "sets": [
         {
           "weight": 0,
-          "reps": 10
+          "reps": 12
         },
         {
           "weight": 0,
-          "reps": 10
-        },
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "elliptical-cooldown",
+      "name": "OPTIONAL — Easy elliptical cooldown",
+      "equipment": "Elliptical trainer",
+      "target": "5 minutes easy if time remains",
+      "note": "Recovery pace only. Enter reps=1 to mark complete.",
+      "restSeconds": 0,
+      "sets": [
         {
-          "weight": 0,
-          "reps": 10
+          "weight": null,
+          "reps": 1
         }
       ]
     }
