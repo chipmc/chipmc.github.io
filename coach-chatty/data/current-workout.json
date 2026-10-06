@@ -1,1 +1,186 @@
-{"schemaVersion":1,"id":"2026-10-04-full-body-40","revision":1,"date":"2026-10-04","timeZone":"Asia/Singapore","durationMinutes":40,"title":"Full body + calf PT · 4 October","label":"40-MINUTE FULL BODY · CALF PT","unit":"kg","coachNote":"40 minutes. A: leg extension + leg curl x3. B: hip thrust + calf PT x3. C: pull-ups + lateral raises x3. Finish with farmer carries if comfortable. Keep upper-body work light today and stop any movement that is uncomfortable.","exercises":[{"id":"leg-extension","name":"A1 · Leg extension","equipment":"Leg extension machine","target":"3 × 10 @ 50 kg","restSeconds":0,"sets":[{"weight":50,"reps":10},{"weight":50,"reps":10},{"weight":50,"reps":10}]},{"id":"leg-curl","name":"A2 · Leg curl","equipment":"Leg curl machine","target":"3 × 10–12 @ about 32 kg","restSeconds":60,"sets":[{"weight":32,"reps":12},{"weight":32,"reps":12},{"weight":32,"reps":12}]},{"id":"hip-thrust","name":"B1 · Hip thrust","equipment":"Bench + barbell","target":"3 × 10 @ 55 kg","restSeconds":0,"sets":[{"weight":55,"reps":10},{"weight":55,"reps":10},{"weight":55,"reps":10}]},{"id":"standing-calf-raise","name":"B2 · PT — Single-leg calf raise","equipment":"Stable support + load","target":"3 × 10 each leg @ +10 kg","note":"Full rise, brief top hold, slow 3-second lowering.","restSeconds":75,"sets":[{"weight":10,"reps":10},{"weight":10,"reps":10},{"weight":10,"reps":10}]},{"id":"pull-up","name":"C1 · Pull-ups","equipment":"Pull-up bar","target":"3 × 6–8 while comfortable","restSeconds":0,"sets":[{"weight":0,"reps":8},{"weight":0,"reps":8},{"weight":0,"reps":8}]},{"id":"db-lateral-raise","name":"C2 · Dumbbell lateral raise","equipment":"Dumbbells","target":"3 × 10–12 @ about 5 kg each","note":"Stand upright and raise arms out to the sides. Keep it light.","restSeconds":75,"sets":[{"weight":5,"reps":12},{"weight":5,"reps":12},{"weight":5,"reps":12}]},{"id":"goblet-squat","name":"OPTIONAL · Goblet squat","equipment":"Kettlebell","target":"2 × 10 @ 24 kg","restSeconds":60,"sets":[{"weight":24,"reps":10},{"weight":24,"reps":10}]},{"id":"reverse-crunch","name":"OPTIONAL · Reverse crunch","equipment":"Floor/mat","target":"2 × 12","restSeconds":45,"sets":[{"weight":0,"reps":12},{"weight":0,"reps":12}]},{"id":"farmers-carry","name":"FINISHER · Farmer carry","equipment":"Pair of dumbbells","target":"2–3 × 20–30 m @ 16–20 kg each","note":"Start conservatively. Record weight per hand; reps=1 means one carry.","restSeconds":60,"sets":[{"weight":16,"reps":1},{"weight":16,"reps":1},{"weight":16,"reps":1}]}]}
+{
+  "schemaVersion": 1,
+  "id": "2026-10-06-full-body-elbow-40",
+  "revision": 1,
+  "date": "2026-10-06",
+  "timeZone": "Asia/Singapore",
+  "durationMinutes": 40,
+  "title": "Full body · 6 October",
+  "label": "40-MINUTE FULL BODY · ELBOW-FRIENDLY",
+  "unit": "kg",
+  "coachNote": "40 minutes. Elbow is improved but not 100%, so use upper-body movements that have recently been comfortable. A: goblet squat + pull-ups x3. B: hip thrust + true dumbbell lateral raise x3. C: leg curl + calf PT x3. Finish with farmer carries. Stop any upper-body movement if elbow discomfort clearly appears or increases. Calf PT is protected if time runs short.",
+  "exercises": [
+    {
+      "id": "goblet-squat",
+      "name": "A1 · SUPERSET A — Goblet squat",
+      "equipment": "Kettlebell or dumbbell",
+      "target": "3 × 10 @ 24 kg",
+      "note": "Holding a kettlebell was pain-free in the recent elbow test.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": 24,
+          "reps": 10
+        },
+        {
+          "weight": 24,
+          "reps": 10
+        },
+        {
+          "weight": 24,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "pull-up",
+      "name": "A2 · SUPERSET A — Pull-ups",
+      "equipment": "Pull-up bar",
+      "target": "3 × 6–8 while elbow remains comfortable",
+      "note": "Recent benchmark: 8×3, RPE 5, pain 0. Rest 60–75 sec after A2.",
+      "restSeconds": 75,
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 8
+        },
+        {
+          "weight": 0,
+          "reps": 8
+        },
+        {
+          "weight": 0,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "B1 · SUPERSET B — Hip thrust",
+      "equipment": "Bench + barbell",
+      "target": "3 × 10 @ 55 kg",
+      "note": "Previous 50 kg ×10×3 was RPE 5.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": 55,
+          "reps": 10
+        },
+        {
+          "weight": 55,
+          "reps": 10
+        },
+        {
+          "weight": 55,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "db-lateral-raise",
+      "name": "B2 · SUPERSET B — Dumbbell lateral raise",
+      "equipment": "Dumbbells",
+      "target": "3 × 10–12 @ 6 kg EACH",
+      "note": "True lateral raise: upright, arms out to sides. Previous 5 kg ×12×3 was RPE 2, pain 0. Rest 60–75 sec after B2.",
+      "restSeconds": 75,
+      "sets": [
+        {
+          "weight": 6,
+          "reps": 12
+        },
+        {
+          "weight": 6,
+          "reps": 12
+        },
+        {
+          "weight": 6,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "C1 · SUPERSET C — Leg curl",
+      "equipment": "Leg curl machine",
+      "target": "3 × 10–12 @ 34–36 kg",
+      "note": "Previous 34 kg ×12×3 completed.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": 34,
+          "reps": 12
+        },
+        {
+          "weight": 36,
+          "reps": 10
+        },
+        {
+          "weight": 36,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "C2 · PT — Single-leg calf raise",
+      "equipment": "Stable support + 10 kg load",
+      "target": "3 × 10 EACH LEG @ +10 kg",
+      "note": "PT PRIORITY. Full rise, brief top hold, slow ~3-second lowering. Rest ~60 sec after C2.",
+      "restSeconds": 60,
+      "sets": [
+        {
+          "weight": 10,
+          "reps": 10
+        },
+        {
+          "weight": 10,
+          "reps": 10
+        },
+        {
+          "weight": 10,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "farmers-carry",
+      "name": "FINISHER — Farmer carry",
+      "equipment": "Pair of dumbbells",
+      "target": "3 × 20–30 m @ 23–26 kg EACH",
+      "note": "Recent carries at 26/26/23 kg were completed. Tall posture and controlled walk. Stop if elbow discomfort appears or increases. Record weight per hand; reps=1 means one carry.",
+      "restSeconds": 60,
+      "sets": [
+        {
+          "weight": 23,
+          "reps": 1
+        },
+        {
+          "weight": 26,
+          "reps": 1
+        },
+        {
+          "weight": 26,
+          "reps": 1
+        }
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "OPTIONAL — Reverse crunch",
+      "equipment": "Floor/mat",
+      "target": "2 × 12 if 2–3 minutes remain",
+      "note": "Elbow-free core. No ab roller.",
+      "restSeconds": 45,
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 12
+        },
+        {
+          "weight": 0,
+          "reps": 12
+        }
+      ]
+    }
+  ]
+}
