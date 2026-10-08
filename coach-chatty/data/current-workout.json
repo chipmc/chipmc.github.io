@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "2026-10-08-full-body-40",
-  "revision": 1,
+  "revision": 2,
   "date": "2026-10-08",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
   "title": "Full body · 8 October",
-  "label": "40-MINUTE FULL BODY · ELBOW RETURN + CALF PT",
+  "label": "40-MINUTE FULL BODY · CALF PT ALREADY DONE",
   "unit": "kg",
-  "coachNote": "Superset A: leg extension then LIGHT dumbbell bench x3, rest 75 sec. Superset B: hip thrust then pull-ups x3, rest 75 sec. Superset C: lateral raises then single-leg calf PT x3, rest 60 sec. Finisher: farmer carry + reverse crunch x2. Right elbow improving but not fully recovered: bench is a cautious trial at 14–16 kg each, stop if pain appears or worsens. Calf PT is mandatory: +10 kg x10 EACH LEG with slow lowering. Skip finisher if needed to stay near 40 minutes.",
+  "coachNote": "Calf PT completed separately today: standing calf raises 3x10, wall-sit calf raises 3x10, standing toe raises 3x10. Do NOT repeat calf PT in this gym session. SUPERSET A: leg extension + cautious light DB bench x3, rest 75 sec. SUPERSET B: hip thrust + pull-ups x3, rest 75 sec. SUPERSET C: lateral raises + leg curl x3, rest 60 sec. FINISHER: farmer carry + reverse crunch x2 if time. Stop any upper-body exercise that provokes or increases right-elbow pain.",
   "exercises": [
     {
       "id": "leg-extension",
@@ -121,24 +121,24 @@
       ]
     },
     {
-      "id": "standing-calf-raise",
-      "name": "C2 · PT — Single-leg calf raise",
-      "equipment": "Stable support + load",
-      "target": "3 × 10 EACH LEG @ +10 kg",
-      "note": "PT PRIORITY. Slow 3-second lowering; tick each completed set.",
+      "id": "leg-curl",
+      "name": "C2 · SUPERSET C — Leg curl",
+      "equipment": "Leg curl machine",
+      "target": "3 × 10–12 @ 34 kg",
+      "note": "Recent benchmark 34 kg × 12/10/10. Rest 60 sec after each C1/C2 pair.",
       "restSeconds": 60,
       "sets": [
         {
-          "weight": 10,
-          "reps": 10
+          "weight": 34,
+          "reps": 12
         },
         {
-          "weight": 10,
-          "reps": 10
+          "weight": 34,
+          "reps": 12
         },
         {
-          "weight": 10,
-          "reps": 10
+          "weight": 34,
+          "reps": 12
         }
       ]
     },
