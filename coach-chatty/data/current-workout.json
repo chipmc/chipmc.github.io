@@ -1,56 +1,56 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-06-full-body-elbow-40",
+  "id": "2026-10-08-full-body-40",
   "revision": 1,
-  "date": "2026-10-06",
+  "date": "2026-10-08",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body · 6 October",
-  "label": "40-MINUTE FULL BODY · ELBOW-FRIENDLY",
+  "title": "Full body · 8 October",
+  "label": "40-MINUTE FULL BODY · ELBOW RETURN + CALF PT",
   "unit": "kg",
-  "coachNote": "40 minutes. Elbow is improved but not 100%, so use upper-body movements that have recently been comfortable. A: goblet squat + pull-ups x3. B: hip thrust + true dumbbell lateral raise x3. C: leg curl + calf PT x3. Finish with farmer carries. Stop any upper-body movement if elbow discomfort clearly appears or increases. Calf PT is protected if time runs short.",
+  "coachNote": "Superset A: leg extension then LIGHT dumbbell bench x3, rest 75 sec. Superset B: hip thrust then pull-ups x3, rest 75 sec. Superset C: lateral raises then single-leg calf PT x3, rest 60 sec. Finisher: farmer carry + reverse crunch x2. Right elbow improving but not fully recovered: bench is a cautious trial at 14–16 kg each, stop if pain appears or worsens. Calf PT is mandatory: +10 kg x10 EACH LEG with slow lowering. Skip finisher if needed to stay near 40 minutes.",
   "exercises": [
     {
-      "id": "goblet-squat",
-      "name": "A1 · SUPERSET A — Goblet squat",
-      "equipment": "Kettlebell or dumbbell",
-      "target": "3 × 10 @ 24 kg",
-      "note": "Holding a kettlebell was pain-free in the recent elbow test.",
+      "id": "leg-extension",
+      "name": "A1 · SUPERSET A — Leg extension",
+      "equipment": "Leg extension machine",
+      "target": "3 × 10–12 @ 50 kg",
+      "note": "",
       "restSeconds": 0,
       "sets": [
         {
-          "weight": 24,
+          "weight": 50,
           "reps": 10
         },
         {
-          "weight": 24,
+          "weight": 50,
           "reps": 10
         },
         {
-          "weight": 24,
+          "weight": 50,
           "reps": 10
         }
       ]
     },
     {
-      "id": "pull-up",
-      "name": "A2 · SUPERSET A — Pull-ups",
-      "equipment": "Pull-up bar",
-      "target": "3 × 6–8 while elbow remains comfortable",
-      "note": "Recent benchmark: 8×3, RPE 5, pain 0. Rest 60–75 sec after A2.",
+      "id": "db-bench",
+      "name": "A2 · SUPERSET A — Light dumbbell bench press",
+      "equipment": "Dumbbells + bench",
+      "target": "3 × 10 @ 14–16 kg EACH, elbow permitting",
+      "note": "Reintroduction only; stop if elbow pain appears or increases.",
       "restSeconds": 75,
       "sets": [
         {
-          "weight": 0,
-          "reps": 8
+          "weight": 14,
+          "reps": 10
         },
         {
-          "weight": 0,
-          "reps": 8
+          "weight": 14,
+          "reps": 10
         },
         {
-          "weight": 0,
-          "reps": 8
+          "weight": 14,
+          "reps": 10
         }
       ]
     },
@@ -58,64 +58,64 @@
       "id": "hip-thrust",
       "name": "B1 · SUPERSET B — Hip thrust",
       "equipment": "Bench + barbell",
-      "target": "3 × 10 @ 55 kg",
-      "note": "Previous 50 kg ×10×3 was RPE 5.",
+      "target": "3 × 10–12 @ 60 kg",
+      "note": "",
       "restSeconds": 0,
       "sets": [
         {
-          "weight": 55,
+          "weight": 60,
           "reps": 10
         },
         {
-          "weight": 55,
+          "weight": 60,
           "reps": 10
         },
         {
-          "weight": 55,
+          "weight": 60,
           "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "pull-up",
+      "name": "B2 · SUPERSET B — Pull-ups",
+      "equipment": "Pull-up bar",
+      "target": "3 × 8, only if comfortable",
+      "note": "",
+      "restSeconds": 75,
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 8
+        },
+        {
+          "weight": 0,
+          "reps": 8
+        },
+        {
+          "weight": 0,
+          "reps": 8
         }
       ]
     },
     {
       "id": "db-lateral-raise",
-      "name": "B2 · SUPERSET B — Dumbbell lateral raise",
+      "name": "C1 · SUPERSET C — Dumbbell lateral raise",
       "equipment": "Dumbbells",
-      "target": "3 × 10–12 @ 6 kg EACH",
-      "note": "True lateral raise: upright, arms out to sides. Previous 5 kg ×12×3 was RPE 2, pain 0. Rest 60–75 sec after B2.",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": 6,
-          "reps": 12
-        },
-        {
-          "weight": 6,
-          "reps": 12
-        },
-        {
-          "weight": 6,
-          "reps": 12
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "C1 · SUPERSET C — Leg curl",
-      "equipment": "Leg curl machine",
-      "target": "3 × 10–12 @ 34–36 kg",
-      "note": "Previous 34 kg ×12×3 completed.",
+      "target": "3 × 10–12 @ 7 kg EACH",
+      "note": "Arms out to sides, not lawnmower rows.",
       "restSeconds": 0,
       "sets": [
         {
-          "weight": 34,
-          "reps": 12
-        },
-        {
-          "weight": 36,
+          "weight": 7,
           "reps": 10
         },
         {
-          "weight": 36,
+          "weight": 7,
+          "reps": 10
+        },
+        {
+          "weight": 7,
           "reps": 10
         }
       ]
@@ -123,9 +123,9 @@
     {
       "id": "standing-calf-raise",
       "name": "C2 · PT — Single-leg calf raise",
-      "equipment": "Stable support + 10 kg load",
+      "equipment": "Stable support + load",
       "target": "3 × 10 EACH LEG @ +10 kg",
-      "note": "PT PRIORITY. Full rise, brief top hold, slow ~3-second lowering. Rest ~60 sec after C2.",
+      "note": "PT PRIORITY. Slow 3-second lowering; tick each completed set.",
       "restSeconds": 60,
       "sets": [
         {
@@ -144,16 +144,12 @@
     },
     {
       "id": "farmers-carry",
-      "name": "FINISHER — Farmer carry",
+      "name": "FINISHER 1 — Farmer carry",
       "equipment": "Pair of dumbbells",
-      "target": "3 × 20–30 m @ 23–26 kg EACH",
-      "note": "Recent carries at 26/26/23 kg were completed. Tall posture and controlled walk. Stop if elbow discomfort appears or increases. Record weight per hand; reps=1 means one carry.",
+      "target": "2 × 20–30 m @ 26 kg EACH",
+      "note": "Record load per hand; stop if elbow discomfort develops.",
       "restSeconds": 60,
       "sets": [
-        {
-          "weight": 23,
-          "reps": 1
-        },
         {
           "weight": 26,
           "reps": 1
@@ -166,18 +162,18 @@
     },
     {
       "id": "reverse-crunch",
-      "name": "OPTIONAL — Reverse crunch",
-      "equipment": "Floor/mat",
-      "target": "2 × 12 if 2–3 minutes remain",
-      "note": "Elbow-free core. No ab roller.",
+      "name": "FINISHER 2 — Reverse crunch",
+      "equipment": "Mat",
+      "target": "2 × 12 @ 10 kg",
+      "note": "",
       "restSeconds": 45,
       "sets": [
         {
-          "weight": 0,
+          "weight": 10,
           "reps": 12
         },
         {
-          "weight": 0,
+          "weight": 10,
           "reps": 12
         }
       ]
