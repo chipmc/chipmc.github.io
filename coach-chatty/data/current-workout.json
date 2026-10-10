@@ -1,18 +1,84 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-08-full-body-40",
-  "revision": 2,
-  "date": "2026-10-08",
+  "id": "2026-10-10-lower-pt-40",
+  "revision": 1,
+  "date": "2026-10-10",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body · 8 October",
-  "label": "40-MINUTE FULL BODY · CALF PT ALREADY DONE",
+  "title": "Lower body + calf PT · 10 October",
+  "label": "40 MIN · ELBOW RECOVERY",
   "unit": "kg",
-  "coachNote": "Calf PT completed separately today: standing calf raises 3x10, wall-sit calf raises 3x10, standing toe raises 3x10. Do NOT repeat calf PT in this gym session. SUPERSET A: leg extension + cautious light DB bench x3, rest 75 sec. SUPERSET B: hip thrust + pull-ups x3, rest 75 sec. SUPERSET C: lateral raises + leg curl x3, rest 60 sec. FINISHER: farmer carry + reverse crunch x2 if time. Stop any upper-body exercise that provokes or increases right-elbow pain.",
+  "coachNote": "Right elbow worsened the day after the last workout. No upper-body testing today. Calf PT first: standing calf raises, wall-sit calf raises, standing toe raises, each 3x10 with physiotherapist-prescribed technique/load. Then B1 leg extension + B2 leg curl x3, rest 60s after each pair. C1 hip thrust + C2 reverse crunch x2 if elbow-safe setup, rest 60s. Finish 8 min easy elliptical or bike RPE 4–5 without forceful arm use. Stop movements that provoke pain.",
   "exercises": [
     {
+      "id": "standing-calf-raise",
+      "name": "PT 1 — Standing calf raises",
+      "equipment": "Stable support",
+      "target": "3 × 10 per PT",
+      "note": "Record actual load. Use PT-prescribed technique.",
+      "restSeconds": 45,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "wall-sit-calf-raise",
+      "name": "PT 2 — Wall-sit calf raises",
+      "equipment": "Wall + PT-prescribed load",
+      "target": "3 × 10",
+      "note": "Bent-knee calf work; record actual load.",
+      "restSeconds": 45,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "standing-toe-raise",
+      "name": "PT 3 — Standing toe raises",
+      "equipment": "Wall or stable support",
+      "target": "3 × 10",
+      "note": "Raise toes with heels planted.",
+      "restSeconds": 45,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        }
+      ]
+    },
+    {
       "id": "leg-extension",
-      "name": "A1 · SUPERSET A — Leg extension",
+      "name": "B1 — Leg extension",
       "equipment": "Leg extension machine",
       "target": "3 × 10–12 @ 50 kg",
       "note": "",
@@ -33,148 +99,74 @@
       ]
     },
     {
-      "id": "db-bench",
-      "name": "A2 · SUPERSET A — Light dumbbell bench press",
-      "equipment": "Dumbbells + bench",
-      "target": "3 × 10 @ 14–16 kg EACH, elbow permitting",
-      "note": "Reintroduction only; stop if elbow pain appears or increases.",
-      "restSeconds": 75,
+      "id": "leg-curl",
+      "name": "B2 — Leg curl",
+      "equipment": "Leg curl machine",
+      "target": "3 × 10–12 @ 34 kg",
+      "note": "",
+      "restSeconds": 60,
       "sets": [
         {
-          "weight": 14,
+          "weight": 34,
           "reps": 10
         },
         {
-          "weight": 14,
+          "weight": 34,
           "reps": 10
         },
         {
-          "weight": 14,
+          "weight": 34,
           "reps": 10
         }
       ]
     },
     {
       "id": "hip-thrust",
-      "name": "B1 · SUPERSET B — Hip thrust",
+      "name": "C1 — Hip thrust",
       "equipment": "Bench + barbell",
-      "target": "3 × 10–12 @ 60 kg",
+      "target": "2 × 10 @ 50–60 kg if elbow-safe setup",
       "note": "",
       "restSeconds": 0,
       "sets": [
         {
-          "weight": 60,
+          "weight": 50,
           "reps": 10
         },
         {
-          "weight": 60,
+          "weight": 50,
           "reps": 10
-        },
-        {
-          "weight": 60,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "pull-up",
-      "name": "B2 · SUPERSET B — Pull-ups",
-      "equipment": "Pull-up bar",
-      "target": "3 × 8, only if comfortable",
-      "note": "",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": 0,
-          "reps": 8
-        },
-        {
-          "weight": 0,
-          "reps": 8
-        },
-        {
-          "weight": 0,
-          "reps": 8
-        }
-      ]
-    },
-    {
-      "id": "db-lateral-raise",
-      "name": "C1 · SUPERSET C — Dumbbell lateral raise",
-      "equipment": "Dumbbells",
-      "target": "3 × 10–12 @ 7 kg EACH",
-      "note": "Arms out to sides, not lawnmower rows.",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": 7,
-          "reps": 10
-        },
-        {
-          "weight": 7,
-          "reps": 10
-        },
-        {
-          "weight": 7,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "C2 · SUPERSET C — Leg curl",
-      "equipment": "Leg curl machine",
-      "target": "3 × 10–12 @ 34 kg",
-      "note": "Recent benchmark 34 kg × 12/10/10. Rest 60 sec after each C1/C2 pair.",
-      "restSeconds": 60,
-      "sets": [
-        {
-          "weight": 34,
-          "reps": 12
-        },
-        {
-          "weight": 34,
-          "reps": 12
-        },
-        {
-          "weight": 34,
-          "reps": 12
-        }
-      ]
-    },
-    {
-      "id": "farmers-carry",
-      "name": "FINISHER 1 — Farmer carry",
-      "equipment": "Pair of dumbbells",
-      "target": "2 × 20–30 m @ 26 kg EACH",
-      "note": "Record load per hand; stop if elbow discomfort develops.",
-      "restSeconds": 60,
-      "sets": [
-        {
-          "weight": 26,
-          "reps": 1
-        },
-        {
-          "weight": 26,
-          "reps": 1
         }
       ]
     },
     {
       "id": "reverse-crunch",
-      "name": "FINISHER 2 — Reverse crunch",
+      "name": "C2 — Reverse crunch",
       "equipment": "Mat",
-      "target": "2 × 12 @ 10 kg",
+      "target": "2 × 12",
       "note": "",
-      "restSeconds": 45,
+      "restSeconds": 60,
       "sets": [
         {
-          "weight": 10,
+          "weight": 0,
           "reps": 12
         },
         {
-          "weight": 10,
+          "weight": 0,
           "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "elliptical",
+      "name": "D — Easy elliptical or stationary bike",
+      "equipment": "Elliptical / bike",
+      "target": "8 min RPE 4–5",
+      "note": "Log minutes, machine setting, and pain in notes. Reps=1 means cardio block.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 1
         }
       ]
     }
