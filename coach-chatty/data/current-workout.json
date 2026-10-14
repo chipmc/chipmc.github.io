@@ -1,109 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-12-full-body-triceps-40",
+  "id": "2026-10-14-lower-calf-recovery-40",
   "revision": 1,
-  "date": "2026-10-12",
+  "date": "2026-10-14",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body + PT · 12 October",
-  "label": "40 MIN · CALF PT + CAUTIOUS TRICEPS",
+  "title": "Calf PT + recovery · 14 October",
+  "label": "40 MIN · LOWER BODY + TRICEPS RECOVERY",
   "unit": "kg",
-  "coachNote": "Superset A: leg extension + leg curl x3, rest 60–75 sec after each pair. Superset B: hip thrust + DB lateral raise x3, rest 60–75 sec. Calf PT: standing calf raises, wall-sit calf raises, standing toe raises, each 3x10 at PT-prescribed load/tempo. Optional triceps isolation: only if consistent with physio instructions and post-shockwave restrictions; use very light cable pressdowns 1–2x12, no forceful lockout, stop if painful. Reverse crunch 2x12 if time. Avoid heavy pressing, dips, ab wheel and loaded carries.",
+  "coachNote": "Both triceps are sore after recent cable pressdowns and 10 kg single-arm overhead extensions. Elbow joint feels better after physiotherapy. Do not add loaded triceps work today unless the physiotherapist explicitly prescribed it at this frequency. Calf PT 3x10 for each of standing calf raises, wall-sit calf raises and standing toe raises. Then leg extension + leg curl x3, hip thrust + reverse crunch x2, and 8–10 minutes easy elliptical. Stop movements that worsen elbow or heel pain.",
   "exercises": [
-    {
-      "id": "leg-extension",
-      "name": "A1 · SUPERSET A — Leg extension",
-      "equipment": "Leg extension machine",
-      "target": "3 × 10–12 @ 50 kg",
-      "note": "",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": 50,
-          "reps": 10
-        },
-        {
-          "weight": 50,
-          "reps": 10
-        },
-        {
-          "weight": 50,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "A2 · SUPERSET A — Leg curl",
-      "equipment": "Leg curl machine",
-      "target": "3 × 10–12 @ 34 kg",
-      "note": "",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": 34,
-          "reps": 10
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "hip-thrust",
-      "name": "B1 · SUPERSET B — Hip thrust",
-      "equipment": "Bench + barbell",
-      "target": "3 × 8 @ 80 kg",
-      "note": "Hold last session load; prioritize technique.",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": 80,
-          "reps": 8
-        },
-        {
-          "weight": 80,
-          "reps": 8
-        },
-        {
-          "weight": 80,
-          "reps": 8
-        }
-      ]
-    },
-    {
-      "id": "db-lateral-raise",
-      "name": "B2 · SUPERSET B — Dumbbell lateral raise",
-      "equipment": "Dumbbells",
-      "target": "3 × 10–12 @ 7–8 kg each",
-      "note": "True lateral raise. Stop if elbow pain increases.",
-      "restSeconds": 75,
-      "sets": [
-        {
-          "weight": 7,
-          "reps": 12
-        },
-        {
-          "weight": 7,
-          "reps": 12
-        },
-        {
-          "weight": 7,
-          "reps": 12
-        }
-      ]
-    },
     {
       "id": "standing-calf-raise",
       "name": "PT 1 — Standing calf raises",
       "equipment": "Stable support",
-      "target": "3 × 10",
-      "note": "Use PT-prescribed load; previous +10 kg. Record actual load.",
+      "target": "3 × 10 at PT-prescribed load",
+      "note": "Previous +10 kg; record actual load and symptoms.",
       "restSeconds": 45,
       "sets": [
         {
@@ -125,7 +37,7 @@
       "name": "PT 2 — Wall-sit calf raises",
       "equipment": "Wall",
       "target": "3 × 10",
-      "note": "PT-prescribed form and tempo.",
+      "note": "Follow physiotherapist technique and tempo.",
       "restSeconds": 45,
       "sets": [
         {
@@ -145,9 +57,9 @@
     {
       "id": "standing-toe-raise",
       "name": "PT 3 — Standing toe raises",
-      "equipment": "Wall or support",
+      "equipment": "Wall or stable support",
       "target": "3 × 10",
-      "note": "Record resistance if any.",
+      "note": "Record any resistance; blank does not mean zero.",
       "restSeconds": 45,
       "sets": [
         {
@@ -165,30 +77,71 @@
       ]
     },
     {
-      "id": "triceps-pressdown",
-      "name": "OPTIONAL PT — Light cable triceps pressdown",
-      "equipment": "Cable + light attachment",
-      "target": "1–2 × 12 only if approved by physio",
-      "note": "Physio recommended triceps isolation but exact exercise not confirmed. Follow post-shockwave guidance; skip if unsure. Stop if symptoms worsen.",
-      "restSeconds": 60,
+      "id": "leg-extension",
+      "name": "B1 — Leg extension",
+      "equipment": "Leg extension machine",
+      "target": "3 × 12 at 50 kg",
+      "restSeconds": 0,
       "sets": [
         {
-          "weight": null,
+          "weight": 50,
           "reps": 12
         },
         {
-          "weight": null,
+          "weight": 50,
           "reps": 12
+        },
+        {
+          "weight": 50,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "B2 — Leg curl",
+      "equipment": "Leg curl machine",
+      "target": "3 × 10–12 at 29–34 kg",
+      "note": "Rest 60 sec after each B1/B2 pair.",
+      "restSeconds": 60,
+      "sets": [
+        {
+          "weight": 29,
+          "reps": 12
+        },
+        {
+          "weight": 34,
+          "reps": 10
+        },
+        {
+          "weight": 34,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "C1 — Hip thrust",
+      "equipment": "Bench + barbell",
+      "target": "2 × 10 at 80 kg if setup is elbow-comfortable",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
         }
       ]
     },
     {
       "id": "reverse-crunch",
-      "name": "OPTIONAL — Reverse crunch",
+      "name": "C2 — Reverse crunch",
       "equipment": "Mat",
-      "target": "2 × 12",
-      "note": "",
-      "restSeconds": 45,
+      "target": "2 × 12 at 10–15 kg if comfortable",
+      "restSeconds": 60,
       "sets": [
         {
           "weight": 10,
@@ -197,6 +150,20 @@
         {
           "weight": 10,
           "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "elliptical",
+      "name": "D — Easy elliptical",
+      "equipment": "Elliptical",
+      "target": "8–10 minutes, RPE 4–5",
+      "note": "Reps=1 marks the cardio block; log duration and resistance in notes.",
+      "restSeconds": 0,
+      "sets": [
+        {
+          "weight": null,
+          "reps": 1
         }
       ]
     }
