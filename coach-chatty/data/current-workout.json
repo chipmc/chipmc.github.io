@@ -1,130 +1,54 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-14-lower-calf-recovery-40",
+  "id": "2026-10-16-full-body-pt",
   "revision": 1,
-  "date": "2026-10-14",
-  "timeZone": "Asia/Singapore",
-  "durationMinutes": 40,
-  "title": "Calf PT + recovery · 14 October",
-  "label": "40 MIN · LOWER BODY + TRICEPS RECOVERY",
+  "date": "2026-10-16",
+  "title": "Full body and PT - 16 October",
   "unit": "kg",
-  "coachNote": "Both triceps are sore after recent cable pressdowns and 10 kg single-arm overhead extensions. Elbow joint feels better after physiotherapy. Do not add loaded triceps work today unless the physiotherapist explicitly prescribed it at this frequency. Calf PT 3x10 for each of standing calf raises, wall-sit calf raises and standing toe raises. Then leg extension + leg curl x3, hip thrust + reverse crunch x2, and 8–10 minutes easy elliptical. Stop movements that worsen elbow or heel pain.",
+  "durationMinutes": 40,
+  "coachNote": "Three rounds of goblet squats with pull-ups; three rounds of hip thrusts with lateral raises. Then calf PT, light triceps work following physiotherapist guidance, and optional core.",
   "exercises": [
     {
-      "id": "standing-calf-raise",
-      "name": "PT 1 — Standing calf raises",
-      "equipment": "Stable support",
-      "target": "3 × 10 at PT-prescribed load",
-      "note": "Previous +10 kg; record actual load and symptoms.",
-      "restSeconds": 45,
+      "id": "goblet-squat",
+      "name": "A1 Goblet squat",
       "sets": [
         {
-          "weight": 10,
+          "weight": 24,
           "reps": 10
         },
         {
-          "weight": 10,
+          "weight": 24,
           "reps": 10
         },
         {
-          "weight": 10,
+          "weight": 24,
           "reps": 10
         }
-      ]
+      ],
+      "restSeconds": 60
     },
     {
-      "id": "wall-sit-calf-raise",
-      "name": "PT 2 — Wall-sit calf raises",
-      "equipment": "Wall",
-      "target": "3 × 10",
-      "note": "Follow physiotherapist technique and tempo.",
-      "restSeconds": 45,
+      "id": "pull-up",
+      "name": "A2 Pull-ups",
       "sets": [
         {
           "weight": 0,
-          "reps": 10
+          "reps": 8
         },
         {
           "weight": 0,
-          "reps": 10
+          "reps": 8
         },
         {
           "weight": 0,
-          "reps": 10
+          "reps": 8
         }
-      ]
-    },
-    {
-      "id": "standing-toe-raise",
-      "name": "PT 3 — Standing toe raises",
-      "equipment": "Wall or stable support",
-      "target": "3 × 10",
-      "note": "Record any resistance; blank does not mean zero.",
-      "restSeconds": 45,
-      "sets": [
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        },
-        {
-          "weight": null,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "leg-extension",
-      "name": "B1 — Leg extension",
-      "equipment": "Leg extension machine",
-      "target": "3 × 12 at 50 kg",
-      "restSeconds": 0,
-      "sets": [
-        {
-          "weight": 50,
-          "reps": 12
-        },
-        {
-          "weight": 50,
-          "reps": 12
-        },
-        {
-          "weight": 50,
-          "reps": 12
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "B2 — Leg curl",
-      "equipment": "Leg curl machine",
-      "target": "3 × 10–12 at 29–34 kg",
-      "note": "Rest 60 sec after each B1/B2 pair.",
-      "restSeconds": 60,
-      "sets": [
-        {
-          "weight": 29,
-          "reps": 12
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        }
-      ]
+      ],
+      "restSeconds": 60
     },
     {
       "id": "hip-thrust",
-      "name": "C1 — Hip thrust",
-      "equipment": "Bench + barbell",
-      "target": "2 × 10 at 80 kg if setup is elbow-comfortable",
-      "restSeconds": 0,
+      "name": "B1 Hip thrust",
       "sets": [
         {
           "weight": 80,
@@ -133,39 +57,119 @@
         {
           "weight": 80,
           "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
         }
-      ]
+      ],
+      "restSeconds": 60
     },
     {
-      "id": "reverse-crunch",
-      "name": "C2 — Reverse crunch",
-      "equipment": "Mat",
-      "target": "2 × 12 at 10–15 kg if comfortable",
-      "restSeconds": 60,
+      "id": "db-lateral-raise",
+      "name": "B2 Lateral raise, kg per hand",
+      "sets": [
+        {
+          "weight": 8,
+          "reps": 10
+        },
+        {
+          "weight": 8,
+          "reps": 10
+        },
+        {
+          "weight": 8,
+          "reps": 10
+        }
+      ],
+      "restSeconds": 60
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "PT Standing calf raise",
       "sets": [
         {
           "weight": 10,
-          "reps": 12
+          "reps": 10
         },
         {
           "weight": 10,
-          "reps": 12
+          "reps": 10
+        },
+        {
+          "weight": 10,
+          "reps": 10
         }
-      ]
+      ],
+      "restSeconds": 60
     },
     {
-      "id": "elliptical",
-      "name": "D — Easy elliptical",
-      "equipment": "Elliptical",
-      "target": "8–10 minutes, RPE 4–5",
-      "note": "Reps=1 marks the cardio block; log duration and resistance in notes.",
-      "restSeconds": 0,
+      "id": "wall-sit-calf-raise",
+      "name": "PT Wall sit calf raise",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10
+        },
+        {
+          "weight": 0,
+          "reps": 10
+        },
+        {
+          "weight": 0,
+          "reps": 10
+        }
+      ],
+      "restSeconds": 60
+    },
+    {
+      "id": "standing-toe-raise",
+      "name": "PT Standing toe raise",
       "sets": [
         {
           "weight": null,
-          "reps": 1
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
+        },
+        {
+          "weight": null,
+          "reps": 10
         }
-      ]
+      ],
+      "restSeconds": 60
+    },
+    {
+      "id": "overhead-triceps-extension",
+      "name": "PT Single arm overhead triceps extension",
+      "sets": [
+        {
+          "weight": 5,
+          "reps": 10
+        },
+        {
+          "weight": 5,
+          "reps": 10
+        }
+      ],
+      "restSeconds": 60
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "Optional reverse crunch",
+      "sets": [
+        {
+          "weight": 15,
+          "reps": 12
+        },
+        {
+          "weight": 15,
+          "reps": 12
+        }
+      ],
+      "restSeconds": 60
     }
   ]
 }
