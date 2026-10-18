@@ -1,16 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-16-full-body-pt",
+  "id": "2026-10-18-full-body-pt-40",
   "revision": 1,
-  "date": "2026-10-16",
-  "title": "Full body and PT - 16 October",
-  "unit": "kg",
+  "date": "2026-10-18",
+  "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "coachNote": "Three rounds of goblet squats with pull-ups; three rounds of hip thrusts with lateral raises. Then calf PT, light triceps work following physiotherapist guidance, and optional core.",
+  "title": "Full body + calf/elbow PT · 18 October",
+  "label": "40 MIN · FULL BODY + PT",
+  "unit": "kg",
+  "coachNote": "A: goblet squat + lateral raise x3, rest 60–75 sec. B: hip thrust + leg curl x3, rest 60–75 sec. Then calf PT (three exercises x3 sets) and cautious elbow PT (single-arm overhead triceps extension, 1–2 light sets each arm only if consistent with physiotherapist advice). Previous 8 kg extensions produced pain 3/10: do not repeat that load without PT guidance. Stop if elbow pain increases. Optional reverse crunch if time. If leg curl machine unavailable, use leg extension.",
   "exercises": [
     {
       "id": "goblet-squat",
-      "name": "A1 Goblet squat",
+      "name": "A1 · Goblet squat",
+      "restSeconds": 0,
+      "note": "",
       "sets": [
         {
           "weight": 24,
@@ -24,50 +28,13 @@
           "weight": 24,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
-    },
-    {
-      "id": "pull-up",
-      "name": "A2 Pull-ups",
-      "sets": [
-        {
-          "weight": 0,
-          "reps": 8
-        },
-        {
-          "weight": 0,
-          "reps": 8
-        },
-        {
-          "weight": 0,
-          "reps": 8
-        }
-      ],
-      "restSeconds": 60
-    },
-    {
-      "id": "hip-thrust",
-      "name": "B1 Hip thrust",
-      "sets": [
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        }
-      ],
-      "restSeconds": 60
+      ]
     },
     {
       "id": "db-lateral-raise",
-      "name": "B2 Lateral raise, kg per hand",
+      "name": "A2 · Dumbbell lateral raise (kg each)",
+      "restSeconds": 75,
+      "note": "",
       "sets": [
         {
           "weight": 8,
@@ -81,12 +48,53 @@
           "weight": 8,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "B1 · Hip thrust",
+      "restSeconds": 0,
+      "note": "",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "B2 · Leg curl",
+      "restSeconds": 75,
+      "note": "If machine unavailable, substitute leg extension and record it.",
+      "sets": [
+        {
+          "weight": 29,
+          "reps": 10
+        },
+        {
+          "weight": 34,
+          "reps": 10
+        },
+        {
+          "weight": 34,
+          "reps": 10
+        }
+      ]
     },
     {
       "id": "standing-calf-raise",
-      "name": "PT Standing calf raise",
+      "name": "PT 1 · Standing calf raise",
+      "restSeconds": 45,
+      "note": "Follow PT technique and load.",
       "sets": [
         {
           "weight": 10,
@@ -100,12 +108,13 @@
           "weight": 10,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
+      ]
     },
     {
       "id": "wall-sit-calf-raise",
-      "name": "PT Wall sit calf raise",
+      "name": "PT 2 · Wall-sit calf raise",
+      "restSeconds": 45,
+      "note": "",
       "sets": [
         {
           "weight": 0,
@@ -119,12 +128,13 @@
           "weight": 0,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
+      ]
     },
     {
       "id": "standing-toe-raise",
-      "name": "PT Standing toe raise",
+      "name": "PT 3 · Standing toe raise",
+      "restSeconds": 45,
+      "note": "",
       "sets": [
         {
           "weight": null,
@@ -138,12 +148,13 @@
           "weight": null,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
+      ]
     },
     {
       "id": "overhead-triceps-extension",
-      "name": "PT Single arm overhead triceps extension",
+      "name": "PT 4 · Single-arm overhead triceps extension",
+      "restSeconds": 60,
+      "note": "Each set per arm. Use physiotherapist-prescribed form and load; stop if elbow pain worsens.",
       "sets": [
         {
           "weight": 5,
@@ -153,23 +164,23 @@
           "weight": 5,
           "reps": 10
         }
-      ],
-      "restSeconds": 60
+      ]
     },
     {
       "id": "reverse-crunch",
-      "name": "Optional reverse crunch",
+      "name": "OPTIONAL · Reverse crunch",
+      "restSeconds": 45,
+      "note": "",
       "sets": [
         {
-          "weight": 15,
+          "weight": 10,
           "reps": 12
         },
         {
-          "weight": 15,
+          "weight": 10,
           "reps": 12
         }
-      ],
-      "restSeconds": 60
+      ]
     }
   ]
 }
