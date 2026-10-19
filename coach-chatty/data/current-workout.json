@@ -1,100 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-18-full-body-pt-40",
+  "id": "2026-10-20-body-recomp-40",
   "revision": 1,
-  "date": "2026-10-18",
+  "date": "2026-10-20",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body + calf/elbow PT · 18 October",
-  "label": "40 MIN · FULL BODY + PT",
+  "title": "Full body + PT · 20 October",
+  "label": "40 MIN · BODY RECOMPOSITION + PT",
   "unit": "kg",
-  "coachNote": "A: goblet squat + lateral raise x3, rest 60–75 sec. B: hip thrust + leg curl x3, rest 60–75 sec. Then calf PT (three exercises x3 sets) and cautious elbow PT (single-arm overhead triceps extension, 1–2 light sets each arm only if consistent with physiotherapist advice). Previous 8 kg extensions produced pain 3/10: do not repeat that load without PT guidance. Stop if elbow pain increases. Optional reverse crunch if time. If leg curl machine unavailable, use leg extension.",
+  "coachNote": "Calf PT first: standing calf raises, wall-sit calf raises, standing toe raises each 3x10. Then superset B hip thrust + DB lateral raise x3 and superset C leg curl + leg extension x3, rest 60–75 sec after each pair. Light triceps rehab only according to physio guidance; prior 8 kg overhead extensions caused 3/10 elbow pain. Finish with 5–8 min elliptical/bike if time. Record pain and effort; avoid movements that worsen elbow or heel symptoms.",
   "exercises": [
     {
-      "id": "goblet-squat",
-      "name": "A1 · Goblet squat",
-      "restSeconds": 0,
-      "note": "",
-      "sets": [
-        {
-          "weight": 24,
-          "reps": 10
-        },
-        {
-          "weight": 24,
-          "reps": 10
-        },
-        {
-          "weight": 24,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "db-lateral-raise",
-      "name": "A2 · Dumbbell lateral raise (kg each)",
-      "restSeconds": 75,
-      "note": "",
-      "sets": [
-        {
-          "weight": 8,
-          "reps": 10
-        },
-        {
-          "weight": 8,
-          "reps": 10
-        },
-        {
-          "weight": 8,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "hip-thrust",
-      "name": "B1 · Hip thrust",
-      "restSeconds": 0,
-      "note": "",
-      "sets": [
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "B2 · Leg curl",
-      "restSeconds": 75,
-      "note": "If machine unavailable, substitute leg extension and record it.",
-      "sets": [
-        {
-          "weight": 29,
-          "reps": 10
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        },
-        {
-          "weight": 34,
-          "reps": 10
-        }
-      ]
-    },
-    {
       "id": "standing-calf-raise",
-      "name": "PT 1 · Standing calf raise",
+      "name": "PT 1 — Standing calf raise",
       "restSeconds": 45,
-      "note": "Follow PT technique and load.",
+      "note": "",
       "sets": [
         {
           "weight": 10,
@@ -112,7 +32,7 @@
     },
     {
       "id": "wall-sit-calf-raise",
-      "name": "PT 2 · Wall-sit calf raise",
+      "name": "PT 2 — Wall-sit calf raise",
       "restSeconds": 45,
       "note": "",
       "sets": [
@@ -132,7 +52,7 @@
     },
     {
       "id": "standing-toe-raise",
-      "name": "PT 3 · Standing toe raise",
+      "name": "PT 3 — Standing toe raise",
       "restSeconds": 45,
       "note": "",
       "sets": [
@@ -147,14 +67,94 @@
         {
           "weight": null,
           "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "hip-thrust",
+      "name": "B1 — Hip thrust",
+      "restSeconds": 0,
+      "note": "",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "db-lateral-raise",
+      "name": "B2 — Dumbbell lateral raise (kg each)",
+      "restSeconds": 75,
+      "note": "",
+      "sets": [
+        {
+          "weight": 8,
+          "reps": 10
+        },
+        {
+          "weight": 8,
+          "reps": 10
+        },
+        {
+          "weight": 8,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "leg-curl",
+      "name": "C1 — Leg curl",
+      "restSeconds": 0,
+      "note": "Machine settings B-5, K-1, A-4.",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10
+        },
+        {
+          "weight": 36,
+          "reps": 10
+        },
+        {
+          "weight": 36,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "leg-extension",
+      "name": "C2 — Leg extension",
+      "restSeconds": 75,
+      "note": "Machine settings B-5, K-1.",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 12
+        },
+        {
+          "weight": 50,
+          "reps": 12
+        },
+        {
+          "weight": 50,
+          "reps": 12
         }
       ]
     },
     {
       "id": "overhead-triceps-extension",
-      "name": "PT 4 · Single-arm overhead triceps extension",
+      "name": "PT 4 — Single-arm overhead triceps extension",
       "restSeconds": 60,
-      "note": "Each set per arm. Use physiotherapist-prescribed form and load; stop if elbow pain worsens.",
+      "note": "Each set per arm. Use only PT-approved resistance and technique; avoid increasing elbow pain.",
       "sets": [
         {
           "weight": 5,
@@ -167,18 +167,14 @@
       ]
     },
     {
-      "id": "reverse-crunch",
-      "name": "OPTIONAL · Reverse crunch",
-      "restSeconds": 45,
-      "note": "",
+      "id": "elliptical",
+      "name": "OPTIONAL — Elliptical or stationary bike",
+      "restSeconds": 0,
+      "note": "5–8 min RPE 5–6; note duration and machine settings.",
       "sets": [
         {
-          "weight": 10,
-          "reps": 12
-        },
-        {
-          "weight": 10,
-          "reps": 12
+          "weight": null,
+          "reps": 1
         }
       ]
     }
