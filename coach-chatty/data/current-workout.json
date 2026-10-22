@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "2026-10-20-body-recomp-40",
+  "id": "2026-10-23-lower-pt-40",
   "revision": 1,
-  "date": "2026-10-20",
+  "date": "2026-10-23",
   "timeZone": "Asia/Singapore",
   "durationMinutes": 40,
-  "title": "Full body + PT · 20 October",
-  "label": "40 MIN · BODY RECOMPOSITION + PT",
+  "title": "Lower body + calf/elbow PT · 23 October",
+  "label": "40 MIN · LOWER BODY AND REHAB",
   "unit": "kg",
-  "coachNote": "Calf PT first: standing calf raises, wall-sit calf raises, standing toe raises each 3x10. Then superset B hip thrust + DB lateral raise x3 and superset C leg curl + leg extension x3, rest 60–75 sec after each pair. Light triceps rehab only according to physio guidance; prior 8 kg overhead extensions caused 3/10 elbow pain. Finish with 5–8 min elliptical/bike if time. Record pain and effort; avoid movements that worsen elbow or heel symptoms.",
+  "coachNote": "Elbow more painful after swimming yesterday. Avoid loaded upper-body exercise today. Calf PT: standing calf raises 3x10 with +10 kg, seated Smith calf raises 3x10 with 40 kg ADDED PLATES (not including bar), standing toe raises 3x10. Lower-body superset B: leg extension + leg curl x3, rest 60 sec after pair. C: hip thrust + reverse crunch x2 if elbow-safe setup. D: gentle unloaded pain-free elbow flexion and extension for 1–2 minutes, no loaded triceps today unless specifically prescribed by PT. Stop exercises that worsen symptoms.",
   "exercises": [
     {
       "id": "standing-calf-raise",
       "name": "PT 1 — Standing calf raise",
       "restSeconds": 45,
-      "note": "",
+      "note": "Record +10 kg external load and symptoms.",
       "sets": [
         {
           "weight": 10,
@@ -31,21 +31,21 @@
       ]
     },
     {
-      "id": "wall-sit-calf-raise",
-      "name": "PT 2 — Wall-sit calf raise",
+      "id": "smith-seated-calf-raise",
+      "name": "PT 2 — Smith seated calf raise",
       "restSeconds": 45,
-      "note": "",
+      "note": "40 kg added plates, excluding Smith bar/carriage. Use physiotherapist-approved technique.",
       "sets": [
         {
-          "weight": 0,
+          "weight": 40,
           "reps": 10
         },
         {
-          "weight": 0,
+          "weight": 40,
           "reps": 10
         },
         {
-          "weight": 0,
+          "weight": 40,
           "reps": 10
         }
       ]
@@ -54,7 +54,7 @@
       "id": "standing-toe-raise",
       "name": "PT 3 — Standing toe raise",
       "restSeconds": 45,
-      "note": "",
+      "note": "Follow PT technique; record resistance if used.",
       "sets": [
         {
           "weight": null,
@@ -66,74 +66,14 @@
         },
         {
           "weight": null,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "hip-thrust",
-      "name": "B1 — Hip thrust",
-      "restSeconds": 0,
-      "note": "",
-      "sets": [
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        },
-        {
-          "weight": 80,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "db-lateral-raise",
-      "name": "B2 — Dumbbell lateral raise (kg each)",
-      "restSeconds": 75,
-      "note": "",
-      "sets": [
-        {
-          "weight": 8,
-          "reps": 10
-        },
-        {
-          "weight": 8,
-          "reps": 10
-        },
-        {
-          "weight": 8,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "id": "leg-curl",
-      "name": "C1 — Leg curl",
-      "restSeconds": 0,
-      "note": "Machine settings B-5, K-1, A-4.",
-      "sets": [
-        {
-          "weight": 36,
-          "reps": 10
-        },
-        {
-          "weight": 36,
-          "reps": 10
-        },
-        {
-          "weight": 36,
           "reps": 10
         }
       ]
     },
     {
       "id": "leg-extension",
-      "name": "C2 — Leg extension",
-      "restSeconds": 75,
+      "name": "B1 — Leg extension",
+      "restSeconds": 0,
       "note": "Machine settings B-5, K-1.",
       "sets": [
         {
@@ -151,30 +91,66 @@
       ]
     },
     {
-      "id": "overhead-triceps-extension",
-      "name": "PT 4 — Single-arm overhead triceps extension",
+      "id": "leg-curl",
+      "name": "B2 — Leg curl",
       "restSeconds": 60,
-      "note": "Each set per arm. Use only PT-approved resistance and technique; avoid increasing elbow pain.",
+      "note": "Machine settings B-5, K-1, A-4. Rest 60 seconds after pair.",
       "sets": [
         {
-          "weight": 5,
-          "reps": 10
+          "weight": 36,
+          "reps": 8
         },
         {
-          "weight": 5,
+          "weight": 36,
+          "reps": 9
+        },
+        {
+          "weight": 36,
           "reps": 10
         }
       ]
     },
     {
-      "id": "elliptical",
-      "name": "OPTIONAL — Elliptical or stationary bike",
+      "id": "hip-thrust",
+      "name": "C1 — Hip thrust",
       "restSeconds": 0,
-      "note": "5–8 min RPE 5–6; note duration and machine settings.",
+      "note": "Skip if loading/setup stresses the elbow.",
       "sets": [
         {
-          "weight": null,
-          "reps": 1
+          "weight": 80,
+          "reps": 10
+        },
+        {
+          "weight": 80,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "C2 — Reverse crunch",
+      "restSeconds": 60,
+      "note": "Elbow-free core exercise.",
+      "sets": [
+        {
+          "weight": 10,
+          "reps": 12
+        },
+        {
+          "weight": 10,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "elbow-rom",
+      "name": "D — Gentle unloaded elbow mobility",
+      "restSeconds": 0,
+      "note": "1–2 minutes comfortable bending/straightening; reps field is a placeholder. No pain-provoking movement.",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10
         }
       ]
     }
